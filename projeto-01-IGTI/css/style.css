@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.slider {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+#square {
+    width: 100%;
+    height: 100px ;
+    background: #000000;
+    transition: background 10ms;
+    margin-top: 30px;
+}

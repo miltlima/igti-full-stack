@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Range IGTI</title>
+    <script async src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <div class="slider">
+        <h2>Color Range</h2>
+        <div>
+            <label for="vol">(R) Vermelho:</label>
+            <input type="range" name="vol" min="0" max="255" step="1" id="red" value="0">
+            <p>Valor:<span id="valueRed"></span></p>
+        </div>
+        <div>
+            <label for="vol">(G) Green:</label>
+            <input type="range" name="vol" min="0" max="255" step="1" id="green" value="0">
+            <p>Valor:<span id="valueGreen"></span></p>
+        </div>
+        <div>
+            <label for="vol">(B): Azul:</label>
+            <input type="range" name="vol" min="0" max="255" step="1" id="blue" value="0">
+            <p>Valor:<span id="valueBlue"></span></p>
+        </div>
+        <div id="square">
+        </div>
+    </div>
+</body>
+
+</html>
